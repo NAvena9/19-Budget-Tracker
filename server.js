@@ -16,13 +16,12 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(MONGODB_URI, { //update them while deploying 
+mongoose.connect(MONGODB_URI, { //CC the same as HW 13, dont forget to UPDATE them while deploying on heroku 
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
 });
 
-// routes
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
