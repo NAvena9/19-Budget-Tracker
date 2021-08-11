@@ -46,7 +46,7 @@ The following images show the application appearance:
 
 
 You can find the app deployed on the following link  
-<a href="https://pacific-escarpment-19734.herokuapp.com/" target="_blank">Heroku deployed app</a>
+<a href="https://pacific-retreat-57544.herokuapp.com/" target="_blank">Heroku deployed app</a>
 
 - - -
 

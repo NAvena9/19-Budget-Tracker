@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(MONGODB_URI, { //CC the same as HW 13, dont forget to UPDATE them while deploying on heroku 
+mongoose.connect(MONGODB_URI, { 
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
